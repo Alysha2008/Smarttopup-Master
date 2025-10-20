@@ -1,0 +1,9 @@
+entrypoint = "server.js"
+hidden = ["node_modules"]
+run = "npm start"
+language = "nodejs"
+onBoot = "npm install"
+modules = ["nodejs-20"]
+
+[agent]
+expertMode = true
